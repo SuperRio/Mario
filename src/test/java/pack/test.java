@@ -3,11 +3,11 @@ package pack;
 import org.testng.annotations.Test;
 
 
-public class one {
+public class test {
 
 	@Test
 	public  void print(){
 		
-		System.out.println("Hello one!");
+		System.out.println("Hello World!");
 	}
 }
