@@ -2,16 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2018-02-02T21:06:37Z" finished-at="2018-02-02T21:06:37Z">
+  <suite name="Default suite" duration-ms="8617" started-at="2018-02-02T22:26:14Z" finished-at="2018-02-02T22:26:23Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:pack.TestRunner@5c072e3f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2018-02-02T21:06:37Z" finished-at="2018-02-02T21:06:37Z">
-      <class name="pack.test">
-        <test-method status="PASS" signature="print()[pri:0, instance:pack.test@5bfbf16f]" name="print" duration-ms="11" started-at="2018-02-02T23:06:37Z" finished-at="2018-02-02T23:06:37Z">
+    <test name="Default test" duration-ms="8617" started-at="2018-02-02T22:26:14Z" finished-at="2018-02-02T22:26:23Z">
+      <class name="pack.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:pack.TestRunner@5c072e3f]" name="setUpClass" is-config="true" duration-ms="240" started-at="2018-02-03T00:26:14Z" finished-at="2018-02-03T00:26:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- print -->
-      </class> <!-- pack.test -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:pack.TestRunner@5c072e3f]" name="feature" duration-ms="8009" started-at="2018-02-03T00:26:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-02-03T00:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login func. Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:pack.TestRunner@5c072e3f]" name="tearDownClass" is-config="true" duration-ms="255" started-at="2018-02-03T00:26:22Z" finished-at="2018-02-03T00:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- pack.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
