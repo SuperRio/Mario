@@ -8,6 +8,6 @@ public class test {
 	@Test
 	public  void print(){
 		
-		System.out.println("change");
+		System.out.println("Hello World!");
 	}
 }
